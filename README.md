@@ -3,14 +3,16 @@
 ## Web server ##
 
 If you don't already have the go.mod file, do 
+
 `go mod init course`
 
 Then do 
+
 `CGO_ENABLED=0 go build .`
 
 This should create a binary called simply webserver. Check it is executable
-    ls -l webserver
-    -rwxr-xr-x 1 garaidh users 6449828 Nov 28 14:24 webserver*
+`ls -l webserver
+-rwxr-xr-x 1 garaidh users 6449828 Nov 28 14:24 webserver*`
 
 ## Dockerfile
 
