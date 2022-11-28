@@ -3,10 +3,10 @@
 ## Web server ##
 
 If you don't already have the go.mod file, do 
-    go mod init course
+`go mod init course`
 
 Then do 
-    CGO_ENABLED=0 go build .
+`CGO_ENABLED=0 go build .`
 
 This should create a binary called simply webserver. Check it is executable
     ls -l webserver
