@@ -21,9 +21,10 @@ Check the contents of Dockerfile, it copies the webserver binary into a distrole
 You can switch between them by commenting out the FROM lines
 eg to change it to distroless
 
-`#FROM scratch
-
-FROM gcr.io/distroless/static-debian11`
+```
+#FROM scratch
+FROM gcr.io/distroless/static-debian11
+```
 
 Build your container
 
