@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  webserver:
+    build: .
+    ports:
+      - "8080:8080"
+    cap_drop: 
+      - FOWNER
+      - AUDIT_WRITE
+      - CHOWN
+      - FSETID
+      - MKNOD
+      - NET_BIND_SERVICE
+      - NET_RAW
+      - SETFCAP
+      - DAC_OVERRIDE
+      - KILL
+      - SETGID
+      - SETPCAP
+      - SETUID
+      - SYS_CHROOT
+ 
